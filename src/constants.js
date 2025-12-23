@@ -1,23 +1,47 @@
 export const scaleFactor = 4;
 
 export const dialogueData = {
-  pc: `This is my PC. I work mostly in JavaScript/TypeScript these days.
-    I've made a couple of games in that language. I also like Golang and Python. Anyway regardless of the language, I just like programming.
-    Here is my <a href="https://github.com/jslegenddev" target="_blank">Github</a>!`,
-  "cs-degree": `This is my CS degree. I hung it on the wall because I'm proud of it. It was a very theoretical degree but I think it gave me a good foundation.`,
-  "sofa-table": `That's my sofa. I like to relax here and watch YouTube. 
-  I also make game programming tutorials on YouTube. Go sub to <a href="https://youtube.com/@jslegenddev" target="_blank">my channel</a>! (If you like the content)
-  You'll learn how I built this portfolio you're currently playing through!`,
-  tv: `That's my TV. I've been watching tech youtubers a lot recently like :
-   <a href="https://www.youtube.com/@ThePrimeTimeagen" target="_blank">Theprimeagen</a>, <a href="https://www.youtube.com/@t3dotgg" target="_blank">Theo - t3.gg</a>,
-  <a href="https://www.youtube.com/@PirateSoftware" target="_blank">PirateSoftware</a> (sometimes) and <a href="https://www.youtube.com/@MelkeyDev" target="_blank">Melkey</a>!`,
-  bed: `This where I sleep. Great ideas comes when I'm lying on my bed. When an idea strikes, I often have to write it down or else I won't be able to sleep because my mental energy is consumed by it.`,
-  resume: `This is my desk and on it is my resume. <a href="https://github.com/JSLegendDev/Resume/blob/main/JSLegend%20Resume-1.pdf" target="_blank">Check it out?</a>
-  Contact me at jslegend@protonmail.com if you have any interesting job opportunities!`,
-  projects: `Info about this portfolio : It's made with the Kaboom.js library which is a library for making games in JavaScript.
-  Text is rendered with HTML/CSS. So the textbox you're currently reading is not rendered within canvas. Learn more about how to use
-  Kaboom.js by watching some of my tutorials <a href="https://youtube.com/@jslegenddev" target="_blank">here</a>.`,
-  library: `There are a lot of programming books on my shelves. There is even one in French (I also speak French btw).
-  I probably only read one of them. Who else compulsively buys technical books without ever finishing them?`,
-  exit: `If you want to exit JSLegendDev's portfolio, just close the tab.`,
+  pc: `This is my workstation. I’ve been working in software engineering for over 20 years,
+  focusing on backend systems, platform engineering, and leadership roles.
+  I work mainly with Golang, Java, JavaScript/TypeScript, and SQL, and I also have experience
+  designing microservices and APIs. Regardless of the technology, I truly enjoy building systems
+  that scale and last.`,
+
+  "cs-degree": `This represents my education background.
+  I hold a Master’s degree in Information Technology from King Mongkut’s University of Technology Thonburi,
+  and a Bachelor’s degree in Information Technology from Maejo University.
+  My academic background gave me a strong foundation in system design and software engineering principles.`,
+
+  "sofa-table": `This is where I take a short break and think.
+  Many ideas about architecture, process improvement, and system optimization come during these moments.
+  I believe good engineering is not only about coding, but also about clear thinking and collaboration.`,
+  tv: `I’ve worked extensively in enterprise and financial systems,
+  including banking, payment platforms, delivery platforms, and blockchain-based solutions.
+  Over the years, I’ve collaborated with many internal teams and external partners
+  to deliver secure and reliable production systems.`,
+  bed: `This is where new ideas often appear.
+  I’ve learned that solving complex problems sometimes requires stepping away from the keyboard.
+  Experience has taught me when to move fast — and when to slow down and design carefully.`,
+  resume: `This is my resume.
+  I am currently a GM / Project Leader at CPMatch (CP Group),
+  leading large-scale delivery and ordering platforms such as DailyRunner,
+  as well as O2O platforms, internal enterprise systems, and payment integrations.
+  <br/><br/>
+  You can contact me at <b>pyoodkhla@gmail.com</b> or <b>+66 83279 1888</b>.`,
+  projects: `Here are some key projects I have worked on:
+  <ul>
+    <li><b>DailyRunner</b> – Enterprise delivery & ordering platform for CP Group</li>
+    <li><b>O2O Delivery Platform</b> – Supporting multiple CP businesses</li>
+    <li><b>Banking Open API & QR Platforms</b> – KBTG</li>
+    <li><b>Blockchain Supply Chain</b> – Hyperledger Fabric (Krungsri Nimble)</li>
+  </ul>
+  Most systems were designed using microservices, REST/GraphQL APIs,
+  CI/CD pipelines, and deployed on Kubernetes and AWS.`,
+  library: `These books represent years of learning in software engineering,
+  system architecture, and leadership.
+  Some were deeply studied, others were references during real production challenges.
+  Continuous learning has always been an important part of my career.`,
+  exit: `Thank you for visiting my interactive resume.
+  If you would like to discuss opportunities, system architecture, or leadership roles,
+  feel free to reach out via email or phone.`,
 };
