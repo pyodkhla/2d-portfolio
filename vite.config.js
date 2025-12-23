@@ -1,8 +1,7 @@
-import { defineConfig } from "vite";
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: "./2d-portfolio",
-  build: {
-    minify: "terser",
-  },
-});
+  plugins: [react()],
+  base: '/2d-portfolio/'   // 👈 ชื่อ repo
+})
